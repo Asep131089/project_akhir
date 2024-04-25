@@ -1,0 +1,45 @@
+.navbar-brand p5 {
+  color: rgb(47, 231, 231);
+}
+.navbar-brand p6 {
+  color: blue;
+}
+
+.brand-line1 {
+  font-family: "Arial", sans-serif; /* Menggunakan jenis huruf Arial */
+  font-size: 28px; /* Ukuran teks yang cukup besar */
+  color: #ff5733; /* Warna yang mencolok */
+  font-weight: bold; /* Membuat teks tebal */
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan teks */
+  margin-bottom: -30px;
+}
+.brand-line2 {
+  font-family: "Arial", cursive; /* Menggunakan jenis huruf Arial */
+  font-size: 28px; /* Ukuran teks yang cukup besar */
+  color: rgba(136, 255, 0, 0.699); /* Warna yang mencolok */
+  font-weight: bold; /* Membuat teks tebal */
+  text-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan teks */
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Posisikan teks secara horizontal di tengah */
+}
+
+.brand-line:first-child {
+  margin-bottom: -6px; /* Atur jarak antara baris pertama dan kedua */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff; /* Warna teks ketika di-hover */
+  background-color: blue; /* Warna latar belakang ketika di-hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Animasi transisi */
+  text-decoration: underline;
+  border-radius: 20%;
+}
+
+.navbar-nav .nav-link {
+  color: blue; /* Warna teks ketika di-hover */
+}
